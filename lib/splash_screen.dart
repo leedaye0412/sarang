@@ -24,7 +24,7 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
     );
 
     // 애니메이션을 끝에서부터 시작하고 처음으로 되돌아가게 합니다.
-    // _controller.reverse(from: 1.0);
+    _controller.reverse(from: 1.0);
 
     // 애니메이션이 끝나면 LoginScreen으로 이동합니다.
     _controller.addStatusListener((status) {
